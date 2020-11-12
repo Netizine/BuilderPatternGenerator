@@ -10,19 +10,12 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-            var myDataClass = Person.Builder
-                .FirstName("Jim")
-                .LastName("Walker")
-                .Build();
-
-            Console.WriteLine(JsonConvert.SerializeObject(myDataClass, Formatting.Indented));
-
             Console.WriteLine("==== Builder Validation ====");
             try
             {
-                Person.Builder
-                .FirstName("Jim")
-                .LastName("Walker")
+               var person = Person.Builder
+                .FirstName("James")
+                .LastName("Melvin")
                     .Build();
             }
             catch (BuilderException ex)

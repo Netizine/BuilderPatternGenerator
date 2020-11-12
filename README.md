@@ -1,4 +1,4 @@
-This project demonstrates the use of .NET 5 Source generators in order to automatically generate builder pattern for classes. Full details on this project are available in this [blog post](https://stakhov.pro/code-generation-with-net-5-builder-pattern/). Please note that this is a working POC sample rather then a production grade code.
+This project demonstrates the use of .NET 5 Source generators to automatically generate builder pattern for classes. Full details on this project are available in this [linkedIn post](https://www.linkedin.com/post/edit/6732592501435232256//). 
 
 ### What does it do
 
@@ -16,7 +16,7 @@ public partial class Person
 }
 ```
 
-into this (compile time)
+into this
 
 ```c#
 partial class Person
@@ -86,6 +86,6 @@ partial class Person
 
 ### Requirements
 
-- Visual Studio 2019 preview
-- .NET 5.0 preview
+- Visual Studio 2019
+- .NET 5.0
 
